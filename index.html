@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FILESTAND</title>
+    <link rel="stylesheet" href="styles.css">
+    <script></script>
+</head>
+
+<body bgcolor=#11082b>
+    
+    <div class="total">
+
+        <div class="navbar">
+            <p class="inblockItems">FILESTAND</p>
+            <div class="codeInput">
+                <p style="color:white" class="inblockItems">CODE : </p>
+                <input type="text" class="inblockItems" />
+                <button class="inblockItems">GO</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="selectBox">
+                <button id="newUserBtn" onclick="eopen('codeVerify','50px')" style="margin-top: 10%;margin-bottom: 3%;" class="btn">NEW USER</button>
+                <div id="codeVerify" class="codeVerify">
+                    <p class="inblockItems">CODE: </p>
+                    <input size="10" id="newUserCode"  class="inblockItems" type="text"/>
+                    <p class="inblockItems">available</p>
+
+                </div>
+                <br>
+                <button style="margin-bottom: 10%;margin-top: 3%;" class="btn">EXISTING USER</button>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+<script src="main.js"></script>
+</html>

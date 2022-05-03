@@ -1,0 +1,73 @@
+.total {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    height: 5%;
+    width: 100%;
+    background-color: rgb(180, 185, 207);
+}
+
+.codeInput {
+
+    float: right;
+    font-size: small;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.inblockItems {
+    font-size: auto;
+    display: inline-block;
+}
+
+.selectBox {
+    background-image: url("./images/sparkles2.jpg");
+    background-repeat: no-repeat;
+    height: 3%;
+    width: 50%;
+    margin-top: 10rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+
+}
+
+
+
+.btn {
+    width: 70%;
+    height: 4rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: large;
+
+
+    background: #10105f;
+    border-radius: 999px;
+    box-shadow: #a10950 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-weight: 700;
+    
+    border: 0;
+}
+
+
+.hide{
+    visibility: hidden;
+}
+.codeVerify{
+    background-color: #09a11d;
+    height: 0px;
+    visibility: hidden;
+    width: 100%;
+    
+
+}
